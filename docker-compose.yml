@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  web:
+
+    # docker file is located on the same directory level as the current yml file
+
+    build: .
+
+    # this will overide the command on docker file 
+    command: uvicorn app.main:app --reload --workers 1 --host 0.0.0.0 --port 8000
+
+    # map the current directory to the /app directory. 
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 80:8000
