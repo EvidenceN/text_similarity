@@ -5,7 +5,7 @@ Comparing 2 texts to get a similarity score. This is a program that takes as inp
 ## Description of how app works
 This app will calculate the TF-IDF of the corpus, then it will calculate the cosine similarity between the 2 text samples. This cosine similarity is what will be used to determine how similar the Sample Texts are. 
 
-## Instructions
+## Instructions on running the APP using Python
 
 [Go go this link to play with the live hosted app](https://text-similarity-comparison.herokuapp.com)
 
@@ -38,3 +38,10 @@ Under "if __name__ == "__main__" " command, change the sample text and repeat th
 * Repeat the above process as many times as you wish
 * type `exit()` to exit the python shell
 
+## Instructioins on running the APP using Docker
+
+* navigate to "text_similarity" folder from your command line
+* make sure you have docker running first
+* type `docker-compose build` to build the docker image
+* type `docker-compose up` to run the web application
+* go to `localhost` to see the app. The localhost url given by docker by default may not work, so just go to `localhost` to see the app. 
