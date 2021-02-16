@@ -6,7 +6,8 @@ from app.api import text_similarity_app
 
 app = FastAPI(
     title='Text Similarity Comparison App',
-    description="""Comparing 2 text to get a similarity score.
+    description="""Comparing 2 texts to get a similarity score. This is a program that takes as inputs two texts and uses a metric to determine how similar they are. The metric being used to compare teh 2 texts is the Cosine Similarity Score. 
+
     \n**INSTRUCTIONS** 
     \n- To use the APP, click on a *post* method below. 
     \n- Click on "Try it out" on the right side

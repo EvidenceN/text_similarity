@@ -22,7 +22,7 @@ class Item(BaseModel):
 
 async def similarity_calculation(item: Item):
     """
-    Get a text input, it will calculate the TF-IDF of the text, then it will calculate the cosine similarity between the 2 samples. This cosine similarity is what will be used to determine how similar the Sample Texts are. 
+    This app will calculate the TF-IDF of the corpus, then it will calculate the cosine similarity between the 2 text samples. This cosine similarity is what will be used to determine how similar the Sample Texts are. 
 
     The app requires 2 texts samples in the fields "Text" & "Second_Text"
     """

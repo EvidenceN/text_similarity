@@ -1,3 +1,10 @@
+# Introduction about the app. 
+
+Comparing 2 texts to get a similarity score. This is a program that takes as inputs two texts and uses a metric to determine how similar they are. The metric being used to compare teh 2 texts is the Cosine Similarity Score.
+
+## Description of how app works
+This app will calculate the TF-IDF of the corpus, then it will calculate the cosine similarity between the 2 text samples. This cosine similarity is what will be used to determine how similar the Sample Texts are. 
+
 ## Instructions
 
 [Go go this link to play with the live hosted app](https://text-similarity-comparison.herokuapp.com)
